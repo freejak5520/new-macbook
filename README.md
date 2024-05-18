@@ -28,9 +28,9 @@ brew install --cask firefox visual-studio-code google-chrome slack iterm2 notion
 
 ### Color Theme
 
-https://iterm2colorschemes.com/ 에서 테마 선택 및 다운로드
+Select and download themes from https://iterm2colorschemes.com/
 
-다운로드한 테마 파일을 더블클릭해 iterm2에 적용
+Double-click the downloaded theme file and apply it to iterm2.
 
 Settings - Profiles - Colors - Color Presets...
 
@@ -56,13 +56,13 @@ Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-th
 
 ## Developments
 
-개발 환경 설정
+Development environment setup
 
 ### Git
 
 https://git-scm.com/
 
-Xcode Command Line Tools 에 같이 설치되는 Git 버전보다 최신 버전을 사용하기 위해 brew를 이용해 git을 설치하고 설정합니다.
+Install and set up a newer version of git using brew instead of the version that comes with Xcode Command Line Tools.
 
 Install git
 
@@ -70,7 +70,7 @@ Install git
 brew install git
 ```
 
-add to .zshrc
+Add to .zshrc
 
 ```
 export PATH=/usr/local/bin:$PATH
@@ -80,7 +80,7 @@ export PATH=/usr/local/bin:$PATH
 
 https://cli.github.com/
 
-GitHub CLI를 설치하고 GitHub에 로그인합니다.
+Install GitHub CLI and log in to GitHub.
 
 Install via brew
 
@@ -94,7 +94,7 @@ gh auth login
 
 https://github.com/nvm-sh/nvm
 
-Node version manager 를 설치하고 사용할 node 버전을 설치합니다.
+Install nvm(Node version manager) and install the version of node you want to use.
 
 Install via brew
 
@@ -114,10 +114,10 @@ export NVM_DIR="$HOME/.nvm"
 
 ### Remove input source shortcut
 
-IDE에서 사용하는 Control + Space 와 충돌 방지를 위해 맥 기본 단축키 제거
+Remove the default macOS shortcut to prevent conflicts with Control + Space used in IDEs.
 
 ### Trackpad 3 point drag
 
-트랙패드 3포인트 드래그 설정
+Set up trackpad 3-point drag.
 
-- 손쉬운 사용 - 포인터 제어기 - 트랙패드 옵션
+- Accessibility - Pointer Controls - Trackpad Options
