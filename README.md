@@ -20,7 +20,7 @@ Paste that in a macOS Terminal or Linux shell prompt.
 brew install --cask firefox visual-studio-code google-chrome slack iterm2 notion fork bartender postman docker zoom alfred rectangle maccy bitwarden iina textsniper keka appcleaner dbeaver-community synology-drive
 ```
 
-명령어로 설치되는 앱들은 아래와 같습니다.
+The apps that can be installed using the command are listed below.
 
 - Firefox - Web browser
 - Google Chrome - Web browser
