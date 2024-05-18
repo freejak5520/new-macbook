@@ -1,4 +1,6 @@
-# New macbook check list
+# New MacBook Setup Guide for Developers
+
+This document summarizes the necessary steps when setting up a new MacBook for development purposes.
 
 ## Install Homebrew
 
@@ -17,6 +19,30 @@ Paste that in a macOS Terminal or Linux shell prompt.
 ```
 brew install --cask firefox visual-studio-code google-chrome slack iterm2 notion fork bartender postman docker zoom alfred rectangle maccy bitwarden iina textsniper keka appcleaner dbeaver-community synology-drive
 ```
+
+명령어로 설치되는 앱들은 아래와 같습니다.
+
+- Firefox - Web browser
+- Google Chrome - Web browser
+- Visual Studio Code - Code editor
+- Slack - Team communication tool
+- Zoom - Video conferencing tool
+- Notion - Project management and collaboration tool
+- Fork - Git client
+- Postman - API development and testing tool
+- Docker - Container platform
+- DBeaver Community - Database management tool
+- Alfred - Productivity app
+- Rectangle - Window management tool
+- Maccy - Clipboard manager
+- Bitwarden - Password manager
+- iTerm2 - Terminal emulator
+- Bartender - Menu bar icon manager
+- IINA - Video player
+- TextSniper - OCR tool
+- Keka - Compression/decompression tool
+- AppCleaner - App removal tool
+- Synology Drive - File synchronization tool
 
 ### with App Store
 
