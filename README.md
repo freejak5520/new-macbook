@@ -102,6 +102,24 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 Start a new terminal session.
 
+### zsh-autocomplete
+
+A plugin for Zsh that adds real-time type-ahead autocompletion to the command line, similar to desktop apps.
+
+https://github.com/marlonrichert/zsh-autocomplete
+
+Install command:
+
+```
+brew install zsh-autocomplete
+```
+
+To activate the autocomplete, add the following at the end of your .zshrc:
+
+```shell
+source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+```
+
 ## Developments
 
 Development environment setup
