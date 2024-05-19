@@ -1,4 +1,4 @@
-# New MacBook Setup Guide for Developers
+# New MacBook Setup Guide for Me
 
 This document summarizes the necessary steps when setting up a new MacBook for development purposes.
 
@@ -20,7 +20,7 @@ To install Homebrew on macOS or Linux, open a terminal and paste the following c
 brew install --cask firefox visual-studio-code google-chrome slack iterm2 notion fork bartender postman docker zoom alfred rectangle maccy bitwarden iina textsniper keka appcleaner dbeaver-community synology-drive
 ```
 
-The apps that can be installed using the command are listed below.
+The following apps can be installed using the above command:
 
 - Firefox - Web browser
 - Google Chrome - Web browser
@@ -58,7 +58,7 @@ Select and download themes from https://iterm2colorschemes.com/
 
 Double-click the downloaded theme file and apply it to iterm2.
 
-Settings - Profiles - Colors - Color Presets...
+Settings -> Profiles -> Colors -> Color Presets...
 
 ## Zsh plugins
 
@@ -86,13 +86,13 @@ Add to .zshrc
 export PATH=/usr/local/bin:$PATH
 ```
 
-#### Set default editor vscode
+#### Set default editor VSCode
 
 ```shell
 git config --global core.editor "code --wait"
 ```
 
-#### Set default difftool vscode
+#### Set default difftool VSCode
 
 ```shell
 git config --global -e
@@ -166,4 +166,4 @@ Remove the default macOS shortcut to prevent conflicts with Control + Space used
 
 Set up trackpad 3-point drag.
 
-- Accessibility - Pointer Controls - Trackpad Options
+- Accessibility -> Pointer Controls -> Trackpad Options
