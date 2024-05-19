@@ -6,7 +6,7 @@ This document summarizes the necessary steps when setting up a new MacBook for d
 
 Check [brew.sh](https://brew.sh/)
 
-```
+```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
@@ -16,7 +16,7 @@ Paste that in a macOS Terminal or Linux shell prompt.
 
 ### With brew cask
 
-```
+```shell
 brew install --cask firefox visual-studio-code google-chrome slack iterm2 notion fork bartender postman docker zoom alfred rectangle maccy bitwarden iina textsniper keka appcleaner dbeaver-community synology-drive
 ```
 
@@ -59,67 +59,6 @@ Select and download themes from https://iterm2colorschemes.com/
 Double-click the downloaded theme file and apply it to iterm2.
 
 Settings - Profiles - Colors - Color Presets...
-
-### Oh my zsh
-
-https://ohmyz.sh/#install
-
-```
-# Install oh-my-zsh via curl
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# Install oh-my-zsh via wget
-sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
-```
-
-### powerlevel10k
-
-https://github.com/romkatv/powerlevel10k
-
-Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
-
-![powerlevel10k styles](https://raw.githubusercontent.com/romkatv/powerlevel10k-media/master/prompt-styles-high-contrast.png)
-
-### zsh-autosuggestions
-
-It suggests commands as you type based on history and completions.
-
-<a href="https://asciinema.org/a/37390" target="_blank"><img src="https://asciinema.org/a/37390.png" width="400" /></a>
-
-https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
-
-Install command:
-
-```
-brew install zsh-autosuggestions
-```
-
-To activate the autosuggestions, add the following at the end of your .zshrc:
-
-```shell
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-```
-
-Start a new terminal session.
-
-### zsh-autocomplete
-
-A plugin for Zsh that adds real-time type-ahead autocompletion to the command line, similar to desktop apps.
-
-https://github.com/marlonrichert/zsh-autocomplete
-
-Install command:
-
-```
-brew install zsh-autocomplete
-```
-
-To activate the autocomplete, add the following at the end of your .zshrc:
-
-```shell
-source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-```
-
 ## Developments
 
 Development environment setup
@@ -132,14 +71,50 @@ Install and set up a newer version of git using brew instead of the version that
 
 Install git
 
-```
+```shell
 brew install git
 ```
 
 Add to .zshrc
 
-```
+```shell
 export PATH=/usr/local/bin:$PATH
+```
+
+#### Set default editor vscode
+
+```shell
+git config --global core.editor "code --wait"
+```
+
+#### Set default difftool vscode
+
+```shell
+git config --global -e
+```
+
+Add to .gitconfig
+
+```ini
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+```
+
+#### Set default mergetool
+
+```shell
+git config --global -e
+```
+
+Add to .gitconfig
+
+```ini
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
 ```
 
 ### GitHub CLI
@@ -150,7 +125,7 @@ Install GitHub CLI and log in to GitHub.
 
 Install via brew
 
-```
+```shell
 brew install gh
 
 gh auth login
@@ -164,13 +139,13 @@ Install nvm(Node version manager) and install the version of node you want to us
 
 Install via brew
 
-```
+```shell
 brew install nvm
 ```
 
 add to .zshrc
 
-```
+```shell
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
