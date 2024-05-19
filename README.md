@@ -4,13 +4,13 @@ This document summarizes the necessary steps when setting up a new MacBook for d
 
 ## Install Homebrew
 
-Check [brew.sh](https://brew.sh/)
+[https://brew.sh/](https://brew.sh/)
+
+To install Homebrew on macOS or Linux, open a terminal and paste the following command:
 
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-
-Paste that in a macOS Terminal or Linux shell prompt.
 
 ## Install apps
 
