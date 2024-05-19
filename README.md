@@ -14,7 +14,7 @@ To install Homebrew on macOS or Linux, open a terminal and paste the following c
 
 ## Install apps
 
-### With brew cask
+### With brew
 
 ```shell
 brew install --cask firefox visual-studio-code google-chrome slack iterm2 notion fork bartender postman docker zoom alfred rectangle maccy bitwarden iina textsniper keka appcleaner dbeaver-community synology-drive
@@ -43,6 +43,16 @@ The following apps can be installed using the above command:
 - Keka - Compression/decompression tool
 - AppCleaner - App removal tool
 - Synology Drive - File synchronization tool
+
+#### Stats
+
+https://github.com/exelban/stats
+
+To install it using Homebrew, open the Terminal app and type:
+
+```shell
+brew install stats
+```
 
 ### with App Store
 
