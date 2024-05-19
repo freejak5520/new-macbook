@@ -84,7 +84,7 @@ Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-th
 
 It suggests commands as you type based on history and completions.
 
-[![asciicast](https://asciinema.org/a/37390.svg)](https://asciinema.org/a/37390)
+<a href="https://asciinema.org/a/37390" target="_blank"><img src="https://asciinema.org/a/37390.png" width="400" /></a>
 
 https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 
