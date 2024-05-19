@@ -50,7 +50,7 @@ The apps that can be installed using the command are listed below.
 - [Authy](https://apps.apple.com/kr/app/twilio-authy/id494168017)
 - [RunCat](https://apps.apple.com/kr/app/runcat/id1429033973?mt=12)
 
-## Iterm2
+## Zsh & Iterm2
 
 ### Color Theme
 
@@ -79,6 +79,28 @@ https://github.com/romkatv/powerlevel10k
 Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
 
 ![powerlevel10k styles](https://raw.githubusercontent.com/romkatv/powerlevel10k-media/master/prompt-styles-high-contrast.png)
+
+### zsh-autosuggestions
+
+It suggests commands as you type based on history and completions.
+
+[![asciicast](https://asciinema.org/a/37390.svg)](https://asciinema.org/a/37390)
+
+https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
+
+Install command:
+
+```
+brew install zsh-autosuggestions
+```
+
+To activate the autosuggestions, add the following at the end of your .zshrc:
+
+```shell
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+```
+
+Start a new terminal session.
 
 ## Developments
 
