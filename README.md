@@ -50,7 +50,7 @@ The apps that can be installed using the command are listed below.
 - [Authy](https://apps.apple.com/kr/app/twilio-authy/id494168017)
 - [RunCat](https://apps.apple.com/kr/app/runcat/id1429033973?mt=12)
 
-## Zsh & Iterm2
+## Iterm2
 
 ### Color Theme
 
@@ -59,6 +59,11 @@ Select and download themes from https://iterm2colorschemes.com/
 Double-click the downloaded theme file and apply it to iterm2.
 
 Settings - Profiles - Colors - Color Presets...
+
+## Zsh plugins
+
+Check [Zsh plugins](./zsh-plugins.md)
+
 ## Developments
 
 Development environment setup
