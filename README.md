@@ -54,6 +54,14 @@ To install it using Homebrew, open the Terminal app and type:
 brew install stats
 ```
 
+#### Karabiner-Elements
+
+Keyboard customizer for macOS.
+
+```shell
+brew install --cask karabiner-elements
+```
+
 ### with App Store
 
 - [Dropover](https://apps.apple.com/kr/app/dropover-easier-drag-drop/id1355679052?mt=12)
