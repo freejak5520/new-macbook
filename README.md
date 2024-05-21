@@ -35,7 +35,6 @@ The following apps can be installed using the above command:
 - Alfred - Productivity app
 - Rectangle - Window management tool
 - Maccy - Clipboard manager
-- Bitwarden - Password manager
 - iTerm2 - Terminal emulator
 - Bartender - Menu bar icon manager
 - IINA - Video player
@@ -68,6 +67,7 @@ brew install --cask karabiner-elements
 - [Dropover](https://apps.apple.com/kr/app/dropover-easier-drag-drop/id1355679052?mt=12)
 - [Authy](https://apps.apple.com/kr/app/twilio-authy/id494168017)
 - [RunCat](https://apps.apple.com/kr/app/runcat/id1429033973?mt=12)
+- [Bitwarden](https://apps.apple.com/kr/app/bitwarden/id1352778147?mt=12) - Password manager
 
 ## Iterm2
 
