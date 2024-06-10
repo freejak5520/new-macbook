@@ -186,3 +186,21 @@ Remove the default macOS shortcut to prevent conflicts with Control + Space used
 Set up trackpad 3-point drag.
 
 - Accessibility -> Pointer Controls -> Trackpad Options
+
+### How to Type ` (Backtick) Instead of ￦ (Won Symbol) When Using Korean Input on Mac
+
+When using the Korean input method on a Mac, you might notice that typing the backtick (`) key results in the won symbol (￦) instead. This can be inconvenient for developers who frequently use backticks in code. Fortunately, you can configure your Mac to input backticks even when the Korean input method is active.
+
+Create or edit DefaultKeyBinding.dick
+
+```shell
+vim ~/Library/KeyBindings/DefaultKeyBinding.dict
+```
+
+DefaultKeyBinding.dict
+
+```json
+{
+    "₩" = ("insertText:", "`");
+}
+```
