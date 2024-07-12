@@ -14,17 +14,17 @@ To install Homebrew on macOS or Linux, open a terminal and paste the following c
 
 ## Install apps
 
-### With brew
+### Using Homebrew Cask
 
 ```shell
-brew install --cask firefox visual-studio-code google-chrome slack iterm2 notion fork bartender postman docker zoom alfred rectangle maccy bitwarden iina textsniper keka appcleaner dbeaver-community synology-drive aldente
+brew install --cask firefox cursor google-chrome slack iterm2 notion fork bartender postman docker zoom alfred rectangle maccy bitwarden iina textsniper keka appcleaner dbeaver-community synology-drive aldente karabiner-elements
 ```
 
 The following apps can be installed using the above command:
 
 - Firefox - Web browser
 - Google Chrome - Web browser
-- Visual Studio Code - Code editor
+- Cursor ~~Visual Studio Code~~ - Code editor
 - Slack - Team communication tool
 - Zoom - Video conferencing tool
 - Notion - Project management and collaboration tool
@@ -41,28 +41,20 @@ The following apps can be installed using the above command:
 - TextSniper - OCR tool
 - Keka - Compression/decompression tool
 - AppCleaner - App removal tool
-- Synology Drive - File synchronization tool
 - Aldente - MacBook battery charging limiter
+- Synology Drive - File synchronization tool(using synology nas)
+- Karabiner-Elements - Keyboard customizer for macOS.
 
-#### Stats
-
-https://github.com/exelban/stats
-
-To install it using Homebrew, open the Terminal app and type:
+### Using Homebrew Cask
 
 ```shell
 brew install stats
 ```
 
-#### Karabiner-Elements
+- [Stats](https://github.com/exelban/stats) - macOS menu bar system monitor
 
-Keyboard customizer for macOS.
 
-```shell
-brew install --cask karabiner-elements
-```
-
-### with App Store
+### via App Store
 
 - [Dropover](https://apps.apple.com/kr/app/dropover-easier-drag-drop/id1355679052?mt=12)
 - [Authy](https://apps.apple.com/kr/app/twilio-authy/id494168017)
