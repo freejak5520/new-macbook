@@ -51,14 +51,14 @@ The following apps can be installed using the above command:
 brew install stats
 ```
 
-- [Stats](https://github.com/exelban/stats) - macOS menu bar system monitor
+- [Stats](https://github.com/exelban/stats) - Menu bar system monitor
 
 
 ### via App Store
 
 - [Dropover](https://apps.apple.com/kr/app/dropover-easier-drag-drop/id1355679052?mt=12)
 - [Authy](https://apps.apple.com/kr/app/twilio-authy/id494168017)
-- [RunCat](https://apps.apple.com/kr/app/runcat/id1429033973?mt=12)
+- [~~RunCat~~](https://apps.apple.com/kr/app/runcat/id1429033973?mt=12) - Menu bar system monitor. Replace with stats
 - [Bitwarden](https://apps.apple.com/kr/app/bitwarden/id1352778147?mt=12) - Password manager
 
 ## Iterm2
