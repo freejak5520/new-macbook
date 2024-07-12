@@ -45,7 +45,7 @@ The following apps can be installed using the above command:
 - Synology Drive - File synchronization tool(using synology nas)
 - Karabiner-Elements - Keyboard customizer for macOS.
 
-### Using Homebrew Cask
+### Using Homebrew
 
 ```shell
 brew install stats
