@@ -151,21 +151,9 @@ gh auth login
 
 https://github.com/nvm-sh/nvm
 
-Install nvm(Node version manager) and install the version of node you want to use.
+~~Install nvm(Node version manager) and install the version of node you want to use.~~
 
-Install via brew
-
-```shell
-brew install nvm
-```
-
-add to .zshrc
-
-```shell
-export NVM_DIR="$HOME/.nvm"
-  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-```
+brew로 설치 하지 않고 수동 설치 필요
 
 ## System Settings
 
